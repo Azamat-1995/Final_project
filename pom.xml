@@ -38,11 +38,7 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.31.0</version>
-        </dependency>
+
 
         <dependency>
             <groupId>io.rest-assured</groupId>
@@ -87,34 +83,31 @@
             <version>7.11.0</version>
             <scope>test</scope>
         </dependency>
-
-        <!-- JUnit Platform Suite API -->
         <dependency>
             <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-suite-api</artifactId>
-            <version>1.9.3</version>
+            <artifactId>junit-platform-suite</artifactId>
+            <version>1.12.1</version>
             <scope>test</scope>
         </dependency>
 
-        <!-- JUnit Platform Suite Engine -->
         <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-suite-engine</artifactId>
-            <version>1.9.3</version>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>7.11.0</version>
             <scope>test</scope>
         </dependency>
 
-        <!-- JUnit 5: полный набор (Core + Engine) -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.9.3</version>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-cucumber7-jvm</artifactId>
+            <version>${allure.version}</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
-            <version>5.23.2</version>
+            <version>6.19.1</version>
             <scope>test</scope>
         </dependency>
 
