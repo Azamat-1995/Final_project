@@ -2,6 +2,9 @@ package org.example.data;
 
 import java.util.UUID;
 
+/**
+ * Централизованная генерация тестовых данных для пользователей.
+ */
 public class UserDataGenerator {
 
     public static String generateUniqueEmail() {
@@ -10,5 +13,9 @@ public class UserDataGenerator {
 
     public static String generatePassword() {
         return "Test12345!";
+    }
+
+    public static String generateListingTitle() {
+        return "Тестовое объявление " + UUID.randomUUID().toString().substring(0, 8);
     }
 }
