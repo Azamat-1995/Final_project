@@ -20,11 +20,6 @@ public class EditListingSteps {
         this.testUser = testUser;
     }
 
-    @Когда("пользователь переходит в свой профиль")
-    public void userOpensProfile() {
-        headerPage.openProfile();
-    }
-
     @Когда("пользователь нажимает на карандаш своего объявления")
     public void userClicksEditOnOwnListing() {
         editListingPage = profilePage.openEditFor(testUser.getListingTitle());
